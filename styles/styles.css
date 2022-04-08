@@ -1,0 +1,98 @@
+#hero {
+    height: 50rem;
+    background-image: url("../images/pics/road.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 56.25rem;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 3rem 0;
+    margin: 0 auto;
+    position: relative;
+    top: 12.5rem;
+}
+
+#hero-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 0.75rem 1.5rem;
+    color: black;
+    /* text-transform: uppercase; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+#highlights {
+    padding: 24px;
+    /* background-color: rgb(227, 255, 253); */
+    background: linear-gradient(0deg, rgb(252, 255, 227), rgb(238, 243, 202));
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(59, 65, 64);
+    margin: 1.5rem 0;
+}
+
+#destinations {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+}
+
+.destination {
+    margin: 0 1.25rem;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    /* object-fit: fill; DEFAULT pushes image into boundaries, distorting ratio */
+    /* object-fit: contain; no part of image left outside */
+    object-fit: cover; /* retains aspect ratio, exces parts are clipped out */
+}
+
+.destination p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: rgb(124, 123, 123);
+    margin: 1.25rem 0;
+}
+
+.destination strong {
+    color: rgb(0, 160, 117);
+}
